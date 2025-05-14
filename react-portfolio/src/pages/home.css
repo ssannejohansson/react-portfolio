@@ -1,0 +1,18 @@
+.home {
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title {
+    width: 600px; 
+}
+
+.title {
+    font-family: "cookie", cursive; 
+    font-size: 80px; 
+}
+
