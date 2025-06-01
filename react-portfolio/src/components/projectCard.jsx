@@ -1,35 +1,23 @@
 import "./projectCard.css"
-import Patagonia from "../assets/bhromaon.png"
+
 
 function ProjectCard(props) {
 
-    return (
-        <div>
-            <div className="container">
+  return (
+  <>
+      <div className="card-area" id="portfolio"> 
+        <div className="card">
+          <img src={props.image} alt="image" className="card-image"></img>
 
-<ul className="cards">
-  <li>
-    <a href="" className="card">
-      <img src={Patagonia} className="card__image" alt="" />
-      <div className="card__overlay">
-        <div className="card__header">
-          <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-          <div className="card__header-text">
-            <h3 className="card__title">{props.title}</h3>            
-          </div>
+          <div className="overlay">
+            <h3 className="card-title">{props.title}</h3>
+            <p className="card-info">{props.info}</p>
+            <a href={props.link} target="_blank" className="card-link">Show Live<i class="fa-solid fa-arrow-right"></i></a>
+          </div>    
         </div>
-        <p className="card__description">{props.tags}</p>
       </div>
-    </a>      
-  </li> 
-</ul>
-</div>
-        </div>
+  </>
     )
 }
-
-
-
-
 
 export default ProjectCard;

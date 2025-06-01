@@ -1,17 +1,27 @@
+import { HashLink as Link} from 'react-router-hash-link';
 import "./home.css"
+
+
+
 
 function Home() {
 
-
   return (
   <>
-    <div className="home">
-        <div className="home__title">
-            <h1 className="title">Hej</h1>
-            <p className="title__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui repellendus veniam debitis nobis sed iure? Porro non, dolorem enim, corporis itaque ut cupiditate odit cum, praesentium sapiente officia excepturi.</p>
-        </div>
+    <div className="home-container" id="home">
+      <div className="title-container">
+        <h3 className="title-top" id="text-focus-in" >Hello, I'm Sanne and I'm a </h3>
+        <h1 className="title" id="focus-in-expand">Front-end</h1>
+        <h1 className="title-second" id="focus-in-expand">developer</h1>
+        <h3 className="title-bottom" id="text-focus-in"> aspiring Full Stack Software Developer</h3>
+      </div>
+
+      <div className="button-container">
+        <button><Link className="link" smooth to="/#portfolio">View work</Link></button> 
+        <button><Link className="link" smooth to="/#contact">Hire me</Link></button>
+      </div>
     </div>
-    </>
+  </>
   )
 }
 

@@ -1,0 +1,38 @@
+.divider {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.divider .shadow {
+    overflow: hidden;
+    height: 20px;
+}
+
+.divider .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px rgba(30, 30, 30, 0.862);
+}
+
+
+/* Tablet */ 
+@media screen and (max-width: 769px) {
+  .divider {
+  margin-top: 30px; 
+}
+}
+
+
+/* Phone */
+@media screen and (max-width: 481px) {
+.divider {
+  margin-top: 30px; 
+}
+}

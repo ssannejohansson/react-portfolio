@@ -1,0 +1,129 @@
+footer {
+    padding-left: 50px;
+    padding-right: 30px; 
+    height: 100px; 
+    width: 100%;  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-copyright {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #adabab;
+}
+
+
+.footer-text a {
+    color: #adabab;
+}
+
+.footer-text a:hover {
+    color: #fafafa;
+    transition: 0.3s all ease; 
+}
+
+
+.socials {  
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+ 
+}
+
+.social-icons {
+    height: 60px;
+    width: 50px; 
+    background-color: #adabab; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials i {
+    font-size: 20px; 
+    line-height: 40px; 
+    color: #adabab;
+    text-align: center;
+    background-color: #353535; 
+    height: 40px;
+    width: 40px; 
+    border-radius: 50%; 
+}
+
+.socials .fa-instagram {
+    font-weight: bold; 
+}
+
+.socials i:hover {
+    background-color: #adabab;
+    outline: 1px solid #686868;
+    outline-offset: 2px; 
+    transition: 0.2s ease-in-out;
+    color: #2a2a2a;
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: 0.2s ease-in;
+}
+
+/* Tablet */ 
+@media screen and (max-width: 769px) {
+    footer {
+    height: 180px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    flex-direction: column;
+    
+}
+
+.footer-info {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.footer-copyright {
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+}
+
+
+/* Phone */
+@media screen and (max-width: 481px) {
+footer {
+    height: 180px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    flex-direction: column;
+    padding-bottom: 20px; 
+    
+}
+
+.footer-info {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.footer-copyright {
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+}
