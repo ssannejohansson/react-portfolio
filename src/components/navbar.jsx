@@ -1,5 +1,5 @@
 import {HashLink} from 'react-router-hash-link';
-import "../components/navbar.css"
+import "./navbar.css"
 
 
 
