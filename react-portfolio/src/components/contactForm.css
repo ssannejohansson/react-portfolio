@@ -191,3 +191,14 @@ button {
     height: 50px; 
 }
 }
+
+@media screen and (max-width: 375px) {
+.contactForm-container {
+    height: 500px;
+}
+
+button {
+    margin-top: 10px; 
+    height: 40px; 
+}
+}

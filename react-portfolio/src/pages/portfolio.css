@@ -102,3 +102,19 @@
   margin-bottom: 10px; 
 }
 }
+
+@media screen and (max-width: 375px) {
+.portfolio-title:before {
+  font-size: 50px;
+}
+
+.portfolio-title {
+  font-size: 30px;
+}
+}
+
+.card-container {
+  gap: 0px;
+  margin-bottom: 0px; 
+  margin-top: 5px;
+}

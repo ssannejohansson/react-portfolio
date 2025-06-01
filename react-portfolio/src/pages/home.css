@@ -227,5 +227,30 @@
   margin-top: 0px;
   margin-right: 0px;
 }
+}
 
+@media screen and (max-width: 375px) {
+.title-container {
+  min-height: 150px;
+}
+
+.title-top {
+  font-size: 16px; 
+  margin-left: 0px; 
+}
+
+.title {
+  font-size: 50px;
+  line-height: 50px; 
+}
+
+.title-second {
+  font-size: 50px; 
+  line-height: 50px;
+
+}
+
+.title-bottom {
+  font-size: 14px; 
+}
 }

@@ -92,5 +92,15 @@ span {
     width: 480px; 
     margin-right: 15px;
 }
+}
 
+@media screen and (max-width: 375px) {
+.about-img {
+    height: 0px;
+    width: 0px; 
+}
+
+.aboutMe-info { 
+    margin-right: 15px;
+}
 }

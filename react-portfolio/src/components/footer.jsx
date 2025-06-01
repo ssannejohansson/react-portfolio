@@ -14,13 +14,13 @@ function Footer() {
       <p className="footer-text"> Created by Sanne Johansson 2025</p>
 
        <div className="socials">                     
-                <a href="#" target="_blank">
+                <a href="#" target="_blank" aria-label="link to instagram">
                 <i className="fa fa-instagram"></i></a>
                 
-                <a href="http://www.linkedin.com/in/sanne-johansson" target="_blank">
+                <a href="http://www.linkedin.com/in/sanne-johansson" target="_blank" aria-label="link to linked in">
                 <i className="fa fa-linkedin"></i></a>
 
-                <a href="http://github.com/ssannejohansson" target="_blank">
+                <a href="http://github.com/ssannejohansson" target="_blank" aria-label="link to github">
                 <i className="fa fa-github"></i></a>
               </div> 
     </div>

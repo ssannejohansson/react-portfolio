@@ -14,14 +14,14 @@ function Skills() {
     return (
     <>
             <div className="skill-container">
-                <img src={HTML} className="skill-icon"></img>
-                <img src={CSS} className="skill-icon"></img>
-                <img src={JS} className="skill-icon"></img>
-                <img src={Sass} className="skill-icon"></img>
-                <img src={React} className="skill-icon"></img>
-                <img src={VsCode} className="skill-icon"></img>
-                <img src={Figma} className="skill-icon"></img>
-                <img src={Photoshop} className="skill-icon"></img>
+                <img src={HTML} className="skill-icon" alt="html icon"></img>
+                <img src={CSS} className="skill-icon" alt="css icon"></img>
+                <img src={JS} className="skill-icon" alt="javascript icon"></img>
+                <img src={Sass} className="skill-icon" alt="sass icon"></img>
+                <img src={React} className="skill-icon" alt="react icon"></img>
+                <img src={VsCode} className="skill-icon" alt="vs code icon"></img>
+                <img src={Figma} className="skill-icon" alt="figma icon"></img>
+                <img src={Photoshop} className="skill-icon" alt="phonoshop icon"></img>
             </div>
     </>
     ) 

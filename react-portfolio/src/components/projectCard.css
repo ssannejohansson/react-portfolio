@@ -86,14 +86,19 @@
   height:110%; 
 }
 
-/* Tablet */ 
-@media screen and (max-width: 769px) {
-}
-
-
 /* Phone */
 @media screen and (max-width: 481px) {
   .card {
     width: 380px; 
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 340px; 
+  }
+
+  .card-area {
+    margin-bottom: 10px;
   }
 }
