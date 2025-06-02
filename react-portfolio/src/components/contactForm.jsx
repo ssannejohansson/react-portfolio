@@ -9,25 +9,25 @@ function contactForm() {
   <>
     <div className="container">
       <div className="contactForm-container">
-            <form className="contact-form">
+            <form className="contact-form" action="https://formsubmit.co/843f2cd35d767780469564ec7604709e" method="POST">
 
               <div className="form-group">
-                <input type="text" placeholder="full name" required></input>
+                <input type="text" name="name" placeholder="full name" required></input>
                 <label className="form-label">Full name</label>
               </div>
 
               <div className="form-group">
-                <input type="email" placeholder="email" required></input>
+                <input type="email" name="email" placeholder="email" required></input>
                 <label className="form-label">E-mail</label>
               </div>
 
               <div className="form-group">
-                <input type="text" placeholder="subject"  required></input>
+                <input type="text" name="subject" placeholder="subject"  required></input>
                 <label className="form-label">Subject</label>
               </div>
 
               <div className="message">
-                <textarea type="text" placeholder="enter your message"  required></textarea>
+                <textarea type="text" name="message" placeholder="enter your message"  required></textarea>
                 <label className="form-label">Enter your message</label>
               </div>
 
