@@ -3,7 +3,7 @@ import Project from "../components/projectCard.jsx"
 import Bhromaon from "../assets/bhromaon.png"
 import Calculator from "../assets/calculator.png"
 import ToDo from "../assets/todolist.png"
-import TriviaGame from "../assets/triviagame.png"
+import CatFact from "../assets/catfact.png"
 
 
 
@@ -24,10 +24,10 @@ function Portfolio() {
           />
        
           <Project
-            image={TriviaGame}
-            title= "Log-in / Registration"
-            info="A Log-in and Registration page made by me for a group-project practising React and API:s. Created using React, CSS and JavaScript, using local storage to store user credentials."
-            link= ""
+            image={CatFact}
+            title= "Random Cat-facts"
+            info="A random cat-facts generator. Created using React, HTML, CSS and JavaScript."
+            link= "https://ssannejohansson.github.io/random-fact/"
           />
 
           <Project
